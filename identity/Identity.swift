@@ -41,7 +41,7 @@ struct Identity {
         return isMemberOfGroup
     }
     
-    /// Get group ID based on group name
+    /// Get group gid based on group name
     ///
     /// - parameters:
     ///     - String: Group name (eg. admin)
@@ -59,7 +59,7 @@ struct Identity {
             return gid
         }
         
-        // 2. Execute query and manage possible error
+        // 2. Execute query and manage possible errors
         let status = CSIdentityQueryExecute(groupQuery.takeUnretainedValue(), UInt(kCSIdentityQueryIncludeHiddenIdentities), &error)
         
         if(!status) {
