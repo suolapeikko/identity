@@ -1,4 +1,14 @@
 # identity
 
-A sample macOS command line tool demonstrating the use of Collaboration framework's Identity classes using Swift. Partial port of Privileges' [MTIdentity class](https://github.com/SAP/macOS-enterprise-privileges/blob/master/source/MTIdentity.m)
+A sample macOS command line tool demonstrating the use of Collaboration framework's Identity classes using Swift. Inspiration and partial port from Privileges' [MTIdentity class](https://github.com/SAP/macOS-enterprise-privileges/blob/master/source/MTIdentity.m)
+
+```
+$ ./identity 
+identity: macOS command line utility that checks users group memberships and group guids
+
+         Usage:
+         identity <group_name>               Get gid based on group name
+         identity <user_name> <gid>          Check (true/false) if user belongs to a group
+```
+
 
