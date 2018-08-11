@@ -1,6 +1,6 @@
 # identity
 
-macOS command line tool demonstrating the use of [Collaboration Framework's](https://developer.apple.com/documentation/collaboration) Identity classes using Swift. Inspiration and partial port from Privileges' [MTIdentity class](https://github.com/SAP/macOS-enterprise-privileges/blob/master/source/MTIdentity.m)
+macOS command line tool example of using [Collaboration Framework's](https://developer.apple.com/documentation/collaboration) Identity classes using Swift. Inspiration and partial port from Privileges' [MTIdentity class](https://github.com/SAP/macOS-enterprise-privileges/blob/master/source/MTIdentity.m)
 
 ```
 $ ./identity 
