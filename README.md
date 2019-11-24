@@ -11,9 +11,9 @@ identity: macOS command line utility that checks users group memberships and gro
          identity <user_name> <gid>          Check (true/false) if user belongs to a group
 ```
 
-You can test the tool by listing macOS's users and groups using these commands
+You can test the tool by listing macOS's users and groups using these commands:
 
-`dscl . list /users`
+`$ dscl . list /users`
 
-`dscl . list /groups`
+`$ dscl . list /groups`
 
